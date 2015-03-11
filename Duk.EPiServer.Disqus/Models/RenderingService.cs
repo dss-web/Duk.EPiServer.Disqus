@@ -116,7 +116,8 @@ namespace Duk.EPiServer.Disqus.Models
                 return;
             }
 
-            requiredResources.RequireScriptInline(renderingModel.LoaderScript, "duk-disqus.Loader", null).AtFooter();
+            // Adding AtArea("DisqusScripts") to avoid rendering scripts on all pages
+            requiredResources.RequireScriptInline(renderingModel.LoaderScript, "duk-disqus.Loader", null).AtArea("DisqusScripts");
 
             if ((context.IsInEditMode || context.IsInPreviewMode) && _editModeRendering.Value != null)
             {
