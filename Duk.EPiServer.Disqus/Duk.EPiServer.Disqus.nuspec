@@ -21,7 +21,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\$id$.dll" target="lib\net45" />
-    <file src="module.config" target="content\modules\$id$" />
+    <file src="bin\Release\Duk.EPiServer.Disqus.dll" target="lib\net45" />
+    <file src="module.config" target="content\modules\Duk.EPiServer.Disqus" />
   </files>
 </package>
