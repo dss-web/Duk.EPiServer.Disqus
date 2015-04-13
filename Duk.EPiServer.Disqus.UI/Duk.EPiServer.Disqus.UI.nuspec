@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>Duk.EPiServer.Disqus.UI</id>
     <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <title>This is a Fork from dmytroduk/Duk.EPiServer.Disqus</title>
+    <authors>dmytroduk and DSS</authors>
+    <owners>dmytroduk</owners>
     <projectUrl>http://dmytroduk.com/projects/disqus-for-episerver</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/dmytroduk/Duk.EPiServer.Disqus/master/msbuild/Tools/icon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
