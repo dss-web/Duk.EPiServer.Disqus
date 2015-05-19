@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duk.EPiServer.Disqus", "Duk.EPiServer.Disqus\Duk.EPiServer.Disqus.csproj", "{89E4D034-4096-424D-BF05-29F1A057E83D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duk.EPiServer.Disqus.UI", "Duk.EPiServer.Disqus.UI\Duk.EPiServer.Disqus.UI.csproj", "{527133D3-075E-4212-9819-BD725D6FD055}"
