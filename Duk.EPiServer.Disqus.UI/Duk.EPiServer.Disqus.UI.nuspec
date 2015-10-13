@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Duk.EPiServer.Disqus.UI</id>
-    <version>1.3.0</version>
+    <version>7.5.0</version>
     <title>Disqus comments configuration UI</title>
     <authors>Dmytro Duk</authors>
     <owners>Dmytro Duk</owners>
