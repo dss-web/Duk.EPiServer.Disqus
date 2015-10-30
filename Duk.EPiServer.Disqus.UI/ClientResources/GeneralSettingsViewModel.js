@@ -127,7 +127,7 @@ function (
             //      public            
             if (this.shortName) {
                 this.set("moderateAdminUrl", "http://" + this.shortName + ".disqus.com/admin/moderate/");
-                this.set("settingsAdminUrl", "http://" + this.shortName + ".disqus.com/admin/settings/");
+                this.set("settingsAdminUrl", "http://" + this.shortName + ".disqus.com/admin/settings/general/");
                 this.set("analyticsAdminUrl", "http://" + this.shortName + ".disqus.com/admin/analytics/");
                 this.set("discussionsAdminUrl", "http://" + this.shortName + ".disqus.com/admin/discussions/");
             } else {
